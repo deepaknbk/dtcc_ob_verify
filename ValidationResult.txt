@@ -1,0 +1,136 @@
+
+
+----------------------------------------------------------------------------------------------------------------------------- 
+											 DTCC Validation Result for COM
+----------------------------------------------------------------------------------------------------------------------------- 
+
+
+
+----------------------------------------------
+Datatrak Header Validation Result
+----------------------------------------------
+
+datatrak_rec_count_present_in_file_header	=	31
+datatrak_rec_count_present_in_file_header_validation_result	=	True
+datatrak_actual_rec_count	=	31
+datatrak_compare_result	=	True
+
+
+----------------------------------------------
+Submitting Header Validation Result
+----------------------------------------------
+
+Total number of Submitting Headers in the file 2 
+
+
+Submitting Header 1 Result
+
+C203904COM3904202012040920240001                    P                                                                                                                                                                                                                                                       
+
+participant_number_present_in_header	=	3904
+participant_number_present_in_header_validation_result	=	True
+transmission_id_present_in_header	=	3904202012040920240001
+transmission_id_present_in_header_validation_result	=	True
+ips_business_code_id_present_in_header	=	COM
+ips_business_code_id_present_in_header_validation_result	=	True
+ips_ind_id_present_in_header	=	P
+ips_ind_id_present_in_header_validation_result	=	True
+submitting_header_count_present_in_header	=	0
+submitting_header_count_present_in_header_validation_result	=	False
+submitting_header_actual_count	=	12
+submitting_header_count_final_match_result	=	False
+
+
+Submitting Header 2 Result
+
+C20390 C M390420201204092020001         000000000012T                                                                                                                                                                                                                                                       
+
+participant_number_present_in_header	=	390 
+participant_number_present_in_header_validation_result	=	False
+transmission_id_present_in_header	=	390420201204092020001 
+transmission_id_present_in_header_validation_result	=	False
+ips_business_code_id_present_in_header	=	C M
+ips_business_code_id_present_in_header_validation_result	=	False
+ips_ind_id_present_in_header	=	T
+ips_ind_id_present_in_header_validation_result	=	True
+submitting_header_count_present_in_header	=	12
+submitting_header_count_present_in_header_validation_result	=	True
+submitting_header_actual_count	=	17
+submitting_header_count_final_match_result	=	False
+
+
+----------------------------------------------
+Contra Header Validation Result
+----------------------------------------------
+
+Contra Header 1 Result
+
+C2101220122000000000200000000002020111420201203                                                                                                                                                                                                                                                             
+
+submitted_contract_count_present_in_header	=	2
+submitted_contract_count_present_in_header_validation_result	=	True
+delivered_contract_count_present_in_header	=	0
+delivered_contract_count_present_in_header_validaton_result	=	True
+nscc_control_number_present_in_header	=	39040203390920240002
+nscc_control_number_present_in_header_validation_result	=	True
+submitted_contract_actual_count	=	2
+submitted_contract_final_match_result	=	True
+submitted_contract_count_actual	=	0
+
+
+Contra Header 2 Result
+
+C2101220122000000000200000000002020111420201204                                                                                                                                                                                                                                                             
+
+submitted_contract_count_present_in_header	=	2
+submitted_contract_count_present_in_header_validation_result	=	True
+delivered_contract_count_present_in_header	=	0
+delivered_contract_count_present_in_header_validaton_result	=	True
+nscc_control_number_present_in_header	=	39040203390920240002
+nscc_control_number_present_in_header_validation_result	=	True
+submitted_contract_actual_count	=	3
+submitted_contract_final_match_result	=	False
+
+
+----------------------------------------------
+Transmission ID Previous File Validation Result
+----------------------------------------------
+
+Transmission ID 1 Result
+
+390420201204092020001
+
+transmission_id	=	390420201204092020001
+transmission_id_compare_result	=	Already Used in Previous file
+file_location	=	C:\Users\ravis\Downloads\S\DTSUTF.C3904.S46029.C0-1.txt
+
+
+Transmission ID 2 Result
+
+3904202012040920240001
+
+transmission_id	=	3904202012040920240001
+transmission_id_compare_result	=	Not Used in Previous file
+
+
+----------------------------------------------
+NSCC Control Number Previous File Validation Result
+----------------------------------------------
+
+NSCC Number 1 Result
+
+39040203390920240001
+
+nscc_control_number	=	39040203390920240001
+line_nscc_control_number_result	=	Already Used in Previous file
+file_location	=	C:\Users\ravis\Downloads\S\DTSUTF.C3904.S46029.C0-1.txt
+
+
+NSCC Number 2 Result
+
+39040203390920240002
+
+nscc_control_number	=	39040203390920240002
+line_nscc_control_number_result	=	Not Used in Previous file
+
+
